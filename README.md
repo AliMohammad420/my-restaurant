@@ -1,14 +1,29 @@
 # my-restaurant
 Day03-Task3
+# `Welcome To Valo Restaurant`
 
 # `Restaurant Dishes`
 1. Mansaf
 2. Steak
 3. Beef Burger
 
+# `Menu`
+<table>
+  <tr>
+    <td>Mansaf</td>
+    <td>Steak</td>
+    <td>Beef Burger</td>
+  </tr>
+  <tr>
+    <td>7.5 JD</td>
+    <td>6 JD</td>
+    <td>5.5 JD</td>
+  </tr>
+</table>
+
 ## `Links`
 
-[Click to see the ReadMe file](https://www.tripadvisor.com/)
+[Click to see the Restaurant on Tripadvisor](https://www.tripadvisor.com/)
 
 ## `image`
 
