@@ -28,3 +28,8 @@ Day03-Task3
 ## `image`
 
 ![Click to see the Resturant View](https://static.thatsup.co/content/img/article/12/apr/stockholms-basta-utsikt-medium.jpg?1587570219)
+
+## `WireFrame Images`
+
+![HomePage](img\HomePage.png)
+![About-us](img\AboutUs.png)

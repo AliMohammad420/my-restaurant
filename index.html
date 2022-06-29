@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valo Restaurant</title>
+</head>
+<style>
+    *
+{
+box-sizing: border-box;
+}
+
+nav
+{
+background-color: black;
+width: 100%;
+height: 100px;
+margin: 5px 0px;
+padding: 5px 15px;
+}
+
+.right
+{
+float: right;
+padding: 10px 5px;
+
+}
+
+.right a 
+{
+   
+margin-right: 15px;
+font-size: 20px;
+text-decoration: none;
+color: white; 
+   
+}
+.right a:hover
+{
+color: red;
+font-size: 20px;
+
+}
+.left
+{
+float: left;
+
+}
+
+.left img
+{
+
+width: 8%;
+}
+.mid
+{
+    text-align: center;
+    color: white;
+    font-size: large;
+    margin-left: 200px;
+    
+}
+main
+{
+
+width: 100%;
+height: 1000px;
+margin: 5px 0px;
+padding-top: 70px;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 500px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+   
+.menu
+{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.menu h1
+{
+    padding-top: 10px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+}
+.menu p
+{
+    font-size: 20px;
+    line-height: 2;
+}
+.dishes
+{
+    margin-right: 1550px;
+    
+}
+.dishes p
+{
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.images
+{
+    margin-left: 1500px;
+    
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+</style>
+<body>
+    <nav>
+           <!--   
+            <div class="left">
+         
+            <img src="img/chef.png" alt="">
+
+            </div>  -->
+
+        <div class="right">
+ 
+            <a href="index.html">Home</a>
+            <a href="about.html">About-Us</a>
+            
+        </div>
+
+        <div class="mid">
+            <h1><p>Welcome to valo!!</p></h1>
+        </div>
+    </nav>
+    <main>
+        <div class="menu">
+               
+            <table>
+                <thead>
+                <caption><h2>Menu</h2> </caption>
+                
+            </thead>
+                <tr>
+                    <td colspan="1">Mansaf</td>
+                    <td>Steak</td>
+                    <td>Beef Burger</td>
+                </tr>
+                <tr>
+                    <td>7.50 JD</td>
+                    <td>6.00 JD</td>
+                    <td>5.50 JD</td>
+                   
+
+                </tr>
+            </table>  
+
+            <div class="dishes">
+            <p>Main dishes :</p>
+            <ul>
+            <li>Mansaf</li>
+            <li>Steak</li>
+            <li>Beef Burger</li>
+            </ul>
+            </div>
+
+            <div class="images">
+                <img src="img/mansaf.jpg" alt="" width="50%">
+                <img src="img/steak.jpg" alt="" width="50%">
+                <img src="img/burger.jpg" alt="" width="50%">
+
+            </div>
+    </main>
+    <footer>
+        <div>
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+                Valo All Rights Reserved</p> 
+        </div>
+        
+    </footer>
+</body>
+</html>
